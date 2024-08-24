@@ -36,13 +36,17 @@ public class WeatherForecastController : ControllerBase
         return ListWeatherForecast;
     }
 
-    [HttpPost]
-    public IActionResult Post(WeatherForecast weatherForecast)
-    {
-        ListWeatherForecast.Add(weatherForecast);
+    [HttpPost]  
+public IActionResult Post(WeatherForecast weatherForecast)  
+{  
+    if (weatherForecast == null)  
+    {  
+        return BadRequest("Weather forecast cannot be null.");  
+    }  
 
-        return Ok();
-    }
+    ListWeatherForecast.Add(weatherForecast);  
+    return CreatedAtAction(nameof(Get), new { index = ListWeatherForecast.Count - 1 }, weatherForecast);  
+}
 
     [HttpDelete("{index}")]
     public IActionResult Delete(int index)
