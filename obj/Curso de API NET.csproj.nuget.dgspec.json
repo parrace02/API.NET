@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Clase de Programación\\Cuerso de Programación\\Curso de API NET\\Curso de API NET.csproj": {}
+    "D:\\Clase de Programación\\Cuerso de Programación\\Curso de API\\Curso de API NET\\Curso de API NET.csproj": {}
   },
   "projects": {
-    "D:\\Clase de Programación\\Cuerso de Programación\\Curso de API NET\\Curso de API NET.csproj": {
+    "D:\\Clase de Programación\\Cuerso de Programación\\Curso de API\\Curso de API NET\\Curso de API NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Clase de Programación\\Cuerso de Programación\\Curso de API NET\\Curso de API NET.csproj",
+        "projectUniqueName": "D:\\Clase de Programación\\Cuerso de Programación\\Curso de API\\Curso de API NET\\Curso de API NET.csproj",
         "projectName": "Curso de API NET",
-        "projectPath": "D:\\Clase de Programación\\Cuerso de Programación\\Curso de API NET\\Curso de API NET.csproj",
+        "projectPath": "D:\\Clase de Programación\\Cuerso de Programación\\Curso de API\\Curso de API NET\\Curso de API NET.csproj",
         "packagesPath": "C:\\Users\\parra\\.nuget\\packages\\",
-        "outputPath": "D:\\Clase de Programación\\Cuerso de Programación\\Curso de API NET\\obj\\",
+        "outputPath": "D:\\Clase de Programación\\Cuerso de Programación\\Curso de API\\Curso de API NET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\parra\\AppData\\Roaming\\NuGet\\NuGet.Config",
