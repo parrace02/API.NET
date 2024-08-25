@@ -10,11 +10,11 @@ public class TimeMiddleware
     }
     public async Task Invoke(Microsoft.AspNetCore.Http.HttpContext context)
     {
-        await next(context);
+        await next(context); 
         if(context.Request.Query.Any(p=> p.Key == "Time"))
         {
             await context.Response.WriteAsJsonAsync(DateTime.Now.ToShortTimeString());
-        }
+        }       
     }
 }
 public static class TimeMiddlewareExtension
