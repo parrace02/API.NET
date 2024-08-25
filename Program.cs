@@ -7,6 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IHelloworklService,HelloWorkldService>();
+//builder.Services.AddScoped<IHelloworklService>(x=> new HelloWorkldService()); // esta es otra forma de realizar sin utilziar la interfas desde la clase
 
 
 var app = builder.Build();
